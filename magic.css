@@ -28,3 +28,26 @@
     right: 0px;
     top: 0px;
 }
+.magic-dots-box{
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+.magic-dots-list{
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.magic-dots-item{
+    margin: 5px;
+    width: 8px;
+    height:8px;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    transition: background-color .3s;
+}
+.magic-dot-activ{
+    background-color: rgb(136, 67, 148);
+}
